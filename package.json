@@ -1,0 +1,21 @@
+{
+    "name": "mint-watermelon",
+    "displayName": "Mint Watermelon",
+    "description": "Minty Watermelon Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mint Watermelon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mint Watermelon-color-theme.json"
+            }
+        ]
+    }
+}
