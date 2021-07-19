@@ -3,6 +3,17 @@
     "displayName": "Mint Watermelon",
     "description": "Minty Watermelon Theme",
     "version": "0.0.1",
+    "publisher": "Ksouffle",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ksouffle/Mint-Watermelon.git"
+    },
+    "keywords": [
+        "mint",
+        "watermelon",
+        "theme",
+        "ksouffle"
+    ],
     "engines": {
         "vscode": "^1.58.0"
     },
