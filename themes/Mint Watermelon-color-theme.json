@@ -28,7 +28,7 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF",
-				"fontStyle": "italic"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			],
 			"settings": {
 				"foreground": "#dc4767",
-				"fontStyle": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -117,7 +117,8 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f07178",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -130,17 +131,19 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#abd362",
-				"fontStyle": "italic"
+				"foreground": "#92EA9E",
+				"fontStyle": ""
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
+				"variable.other.readwrite.alias"
 			],
 			"settings": {
-				"foreground": "#fff"
+				"foreground": "#fff",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -288,7 +291,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#92ea9e",
+				"fontStyle": "italic"
 			}
 		},
 		{
