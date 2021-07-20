@@ -69,7 +69,6 @@
 				"keyword.operator.assignment",
 				"punctuation.separator.comma",
 				"keyword.control",
-				"punctuation.separator.key-value",
 				"keyword.operator.arithmetic",
 				"keyword.operator.type.annotation",
 				"storage.type.function.arrow",
@@ -78,6 +77,17 @@
 			"settings": {
 				"foreground": "#dc4767",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.separator.key-value",
+				"punctuation.separator.comma"
+			],
+			"settings": {
+				"foreground": "#dc4767",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -168,7 +178,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#8eff84"
+				"foreground": "#8eff84",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -222,6 +233,16 @@
 			}
 		},
 		{
+			"name": "Class, Support",
+			"scope": [
+				"support.class.component"
+			],
+			"settings": {
+				"foreground": "#ff9260",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Entity Types",
 			"scope": [
 				"support.type"
@@ -241,7 +262,8 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#f39393",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -325,6 +347,15 @@
 			}
 		},
 		{
+			"name": "Media Query",
+			"scope": [
+				"keyword.control.at-rule.media"
+			],
+			"settings": {
+				"foreground": "#ff9260"
+			}
+		},
+		{
 			"name": "Inserted",
 			"scope": [
 				"markup.inserted"
@@ -392,6 +423,36 @@
 			}
 		},
 		{
+			"name": "Tag name for css",
+			"scope": [
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#92EA9E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "ID tag name for css",
+			"scope": [
+				"entity.other.attribute-name.id"
+			],
+			"settings": {
+				"foreground": "#3FC080",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "ID tag name for css",
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#abfdd4",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "ES7 Bind Operator",
 			"scope": [
 				"source.js constant.other.object.key.js string.unquoted.label.js"
@@ -407,7 +468,8 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#92eaa8",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -416,7 +478,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ff7e7e"
 			}
 		},
 		{
